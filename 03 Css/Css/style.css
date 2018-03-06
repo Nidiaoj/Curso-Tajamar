@@ -1,0 +1,38 @@
+/*@import "Extre.css";-->Otra forma de importar hojas de estilos  */
+/* 
+Especificacion
+
+a - in line
+b - id
+c - class u otros atributos
+d - etiquetas
+
+a.b.c.d
+*/
+#p1 {/* Selector mediante id(No se suele usar)
+    Valor de especificidad: 0.1.0.0
+    */
+    color: blue;
+    }
+.p1{/* Selectores class
+    Valor de especificidad: 0.0.1.0 --> predomina sobre el anterior
+    */
+    color: black;
+   }
+p  {/* Selectores mediante etiqueta
+    Valor de especificidad: 0.0.0.1
+    */
+    color: blueviolet;
+   }
+
+/* 
+p.p1.p1 { --> 0.2.1.0
+    color: blue;
+        }
+p.p2 {
+    color: red;
+     }
+Se selecciona el color con mayor especificidad
+*/
+
+

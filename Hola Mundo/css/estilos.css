@@ -1,4 +1,11 @@
-
- h1 {color: tomato}
-.latin {color: rgb(52, 15, 94)}
-.do {color: brown}
+/*Comentario */
+ h1 {
+     color: tomato;
+     font-family: fantasy;
+    }
+.latin {
+    color: rgb(52, 15, 94)
+       }
+.do {
+    color: brown
+    }
