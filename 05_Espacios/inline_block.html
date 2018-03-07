@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    * { box-sizing : border-box;}
+    .contenedor {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: .1rem solid; */
+        /* overflow: hidden; */
+    }
+    
+    p{
+        background-color: rgb(116, 133, 212);
+      /*   margin-right: 5%; */
+        width: 20%;
+        padding: 1rem;
+       /*  float: left; */
+        display: inline-block;
+        vertical-align: top;
+    }
+      p:not(:first-of-type){
+        margin-left: -4rem;
+    } 
+    p:not(:last-of-type){
+        margin-right: 6.66%;
+    }
+    .contenedor:hover p:nth-last-of-type(2){
+        display: inline-block;
+     /*   visibility: visible; */
+
+    }
+    p:nth-of-type(2){
+        display: none;
+      /*  visibility: hidden; */
+    }
+</style>
+<body>
+    <div class="contenedor">
+        <h1></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sed provident. Fugiat, magni, nesciunt deserunt corporis eius iusto sit asperiores ex expedita ducimus cum perspiciatis vel delectus blanditiis in odit?</p>
+        <p>Aspernatur, a! Magnam eum veniam, atque dolorem qui excepturi delectus totam aliquid eaque natus facilis molestias numquam fugiat hic, minus voluptatem, ex impedit provident inventore maxime dolor. Est, voluptate rem.</p>
+        <p>Debitis fuga harum, expedita tempore magni at eos eligendi esse quidem ex voluptatem, aliquid maiores optio velit dolorem. Omnis saepe rerum numquam modi tenetur quos itaque consequatur ipsam explicabo quia.</p>
+        <p>Quasi suscipit similique laborum ipsum, aliquid sit eum, reprehenderit exercitationem eius sequi consectetur ratione iure ea voluptatem aperiam quas blanditiis hic? Autem officia totam dolores optio ipsa iusto nesciunt fuga?</p>
+       
+    </div>
+</body>
+</html>
