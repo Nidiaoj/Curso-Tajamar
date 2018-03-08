@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posicion</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;/*  */
+        }
+        .contenedor{
+            width: 90%;
+            margin: 5%;
+            height: 90%;
+            border: 1px solid;
+            position: relative;
+        }
+        .caja {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+        }
+        .caja1 {
+            top: 50px;
+            left: 50px;
+            background-color: rgba(231, 44, 82, 0.952);
+        }
+        .caja2 {
+            top: 100px;
+            left: 100px;
+            background-color: rgba(205,92,90,0.61);
+        }
+        .caja3 {
+            top: 200px;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="caja caja1"></div>
+        <div class="caja caja2"></div>
+        <div class="caja caja3"></div>
+    </div>
+</body>
+</html>
