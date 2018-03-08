@@ -1,0 +1,29 @@
+footer>p {/* hijo */
+    color: orangered;
+
+}
+article p {/* descendiente */
+    color: olivedrab;
+}
+article::first-letter{
+    font-family: cursive;
+    font-size: 3rem;
+}
+article::first-line{
+    font-weight: bold;
+}
+section::before{
+    content: "Empieza lo bueno";
+    color: sandybrown;
+}
+section::after{
+    content: "Termina lo bueno";
+    color:lawngreen;
+}
+section p::before{
+    counter-increment: section;
+    content: counter(section)".";
+}
+[name="l"] {
+    color: mediumslateblue;
+}

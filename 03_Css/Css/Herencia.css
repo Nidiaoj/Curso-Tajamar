@@ -1,0 +1,14 @@
+body{
+    color: indigo;
+    border: 1px solid black;
+    margin: 50px;
+    }
+h1, p {
+    color: indigo;
+      } 
+h1 {
+    font-size: 4rem;
+}
+p {
+    font-size: 2rem;
+}
