@@ -8,18 +8,21 @@ box-sizing : border-box;
 
 body{
     font-family: 'Roboto', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0.5;
-    background-color:rgb(204, 217, 255);
     
 }
-.contenedor{
+.contenedor {
     width: 90%;
   /*max-width: 1000px;
     min-width: 480px;; */
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 0rem; */
     margin-bottom: 1rem;
+    background-color:rgb(151, 174, 224);
+    border: 1px solid cornflowerblue; 
+
+}
+header img {
+    width: 100%;
 }
 header h1{
     color: brown;
