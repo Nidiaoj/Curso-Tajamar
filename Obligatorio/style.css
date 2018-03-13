@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Karma');
+*, 
+*::before, *::after, 
+*:before, *:after { 
+box-sizing : border-box;
+}
+
+body {
+    background-image: url("./image/fondo.jpg");
+    background-size: cover;
+    
+}
+.contenedor {
+    width: 100%;
+    padding: 2rem;  
+}
+header {
+    padding: 2rem;
+    padding-bottom: 2rem;
+    background: rgba(243,226,199,1);
+    background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(193,158,103,1) 82%, rgba(233,212,179,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(82%, rgba(193,158,103,1)), color-stop(100%, rgba(233,212,179,1)));
+    background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(193,158,103,1) 82%, rgba(233,212,179,1) 100%);
+    background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(193,158,103,1) 82%, rgba(233,212,179,1) 100%);
+    background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(193,158,103,1) 82%, rgba(233,212,179,1) 100%);
+    background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(193,158,103,1) 82%, rgba(233,212,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+
+} 
+h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header img {
+   width: 800px;
+   max-width: 100%;
+   height: 300px;
+   max-height: 100%;
+}
+
+section.contenido {
+    font-family: 'Karma', serif;
+    float: left;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5rem;
+}
+footer {
+    display: inline-block;
+    text-align: center;
+}
+section img {
+    float: left;
+    width: 350px;
+    height: 300px;
+    padding-right: .5rem;
+}
