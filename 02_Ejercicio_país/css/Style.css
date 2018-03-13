@@ -19,7 +19,7 @@ header h1{
 .contenedor,
 .pie {
     width: 100%; 
-    padding: 3rem;
+    padding: 4rem;
     padding-top: .1rem;
     background: rgba(41,57,97,1);
     background: -moz-linear-gradient(left, rgba(41,57,97,1) 0%, rgba(41,57,97,0.93) 21%, rgba(50,75,135,0.84) 45%, rgba(51,76,138,0.84) 47%, rgba(48,68,120,0.84) 70%);
@@ -36,7 +36,7 @@ header h1{
     margin-bottom: -.3rem;   
 }
 .arriba img {
-    height: 380px;
+    height: 500px;
 }
 header h1{
     color: rgb(219, 18, 18);
@@ -60,10 +60,11 @@ figure img {
     float: right;
     border: .5rem solid;
     border-radius: 1rem;
+    max-width: 100%;
 }
 
 footer{
     text-align: center;
 }
-/* */
+
 
