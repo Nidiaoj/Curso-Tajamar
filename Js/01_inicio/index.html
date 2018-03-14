@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Ejemplos de JS</title>
+    <script>
+        //window.alert("Hola Mundo")//Es un elemento bloqueante
+        console.log("Hola Mundo")//Este mensaje aparece en la consola del navegador
+
+        function btnSaludo(){
+            console.log('Hola usurario')
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Ejemplos de JS</h1>
+    </header>
+    <main>
+        <button type="button" onclick="btnSaludo()">Saludar</button>
+    </main>
+    <footer>
+        Verónica Osorio
+    </footer>
+    <script src="./js/app.js" type="module"></script><!-- Si el tipo no es "module" no entiende export ni import -->
+    <!-- <script src="./Js/app2.js"></script> -->   
+</body>
+</html>
