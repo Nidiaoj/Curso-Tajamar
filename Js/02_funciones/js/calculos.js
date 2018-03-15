@@ -3,21 +3,34 @@
 
 function sumar(a, b) {
 	var c = a + b
-	console.log("El resultado es: ", c)
+	
 	return c
 }
-function resta(a, b) {
+function restar(a, b) {
 	var c = a - b
-	console.log("El resultado es: ", c)
 	return c
 }
+function mostrar (r){
+	console.log("El resultado es: ", r)
+}
+
 // paso 2 parametros
-sumar (123, 34);
-sumar(23, 45);
-sumar(2, 5);
+var x = 123;
+var y = 14;
+var r = sumar(x, y);
+mostrar(r);
+
+console.log("El resultado es: ", sumar (123, 34));
+mostrar(sumar(23, 45));
+mostrar(sumar(2, 5));
+
+var x = 123;
+var y = 14;
+var r = restar(x, y);
+mostrar(r);
 
 sumar()
 
-resta(523, 52)
-resta(52, 52)
-resta(53, 5)
+mostrar(restar(523, 52));
+mostrar(restar(52, 52));
+mostrar(restar(53, 5));
