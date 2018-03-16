@@ -12,7 +12,7 @@ console.log(x)//14
 //Los objetos o datos referenciados como su nambre lo indica se manipulan por referencia
 
 let o1 = {valor : 12}
-let o2 = o1//Asiganacion de referencia-->
+let o2 = o1//Asiganacion de referencia--> 'o1' y 'o2' estan apuntanado al mismo objeto
 o1.valor = 24
 
 console.log(o1)//valor : 24

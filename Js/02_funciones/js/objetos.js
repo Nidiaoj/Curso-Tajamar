@@ -1,4 +1,5 @@
 //Objeto literal
+//Los objetos estan formados por propiedades que son a su vez valores a los que se les da un tipo.
 let user = {
     nombre : 'Pepe',
     apellido : 'Perez',
@@ -17,7 +18,7 @@ console.log(user)
 
 //Otros tipos de objetos
 
-//Array-->conjunto de propiedades que se indexan numericamente
+//Array-->conjunto de propiedades que se indexan numericamente.  Un array es un subtipo de object
 
 let aDatos = [12, 23, 45, 45, 87]
 let aDatoschungo = [12, 'pepe', true, null, undefined]
@@ -78,3 +79,5 @@ let error = new Error()
 
 //Math.cos(90)
 //JSON.parse()
+
+

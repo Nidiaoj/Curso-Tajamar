@@ -12,9 +12,9 @@ function main(){
     
     console.log(x + y)
     
-    r = num1 + Number(num2)// 43 Funcion de casting "Number"(convierte un estring en number) solo se necesita con el +
+    r = num1 + Number(num2)// Funcion de casting "Number"(convierte una cadena en numero) solo se necesita cuando utilizamos '+'
     console.log(r)
-    console.log(typeof r)
+    console.log(typeof r)//typeof devuelve el tipo de la variable 
 
     r = num1 - x
     console.log(r)
