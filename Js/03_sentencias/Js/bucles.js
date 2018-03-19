@@ -10,7 +10,7 @@ for (let i = 6; i > 0; i--) {
 }
 
 let total = 0
-for (let i = 0; i < aDatos.length -1; i >=0; i--) {
+for (let i = 0; i < aDatos.length -1;  i--) {
     total += aDatos[i]//total = total + aDatos[i]
     console.log(`El parcial es ${total}`)
 }
