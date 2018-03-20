@@ -1,0 +1,12 @@
+Una funcion es un objeto con un código ejecutable. se crea de dos maneras: 
+funcion declarada, asignada.
+Las funciones son "void" cuando no devuelven nada y 
+-mediante asignacion:-->tiene Hitting. siempre se coloca al principio.(Funciones con nombre)
+function algo(){
+
+}
+ y mediante declaracion: Se crea una variable y se le asigna la funcion. (Funciones anónimas)
+ let algo =function (){
+
+ }
+ Un metodo es una funcion anónima 

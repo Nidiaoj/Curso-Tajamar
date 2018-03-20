@@ -25,3 +25,11 @@ for (let i = 0; i < 10000; i++) {
     console.log(i)
     
 }
+let y = {nombre: 'Pepe'}
+conconsole.log(typeof y)
+
+function main () {
+    let mostrarResultado2 = function (){
+        console.log(calcularCubo(n))
+    }
+}
