@@ -34,7 +34,7 @@ console.log(x.toUpperCase())
 
 let sFrase = 'Un anillo para controlar a todos'
 let aDatos = sFrase.split(' ')
-console.log(aDatos)
+console.log('split ',aDatos)
 let nuevaFrase = aDatos.join('')
-console.log(nuevaFrase)
+console.log('junto: ',nuevaFrase)
 

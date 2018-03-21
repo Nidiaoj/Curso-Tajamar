@@ -14,8 +14,8 @@ let oDatos = {
 }
 
 let dni
-let code = dni%23
-let aLetras = ['A','B','C','D','E','F']
+let code = dni % 23
+let aLetras = [' A ','B','C','D','E','F']
 aLetras[code]
 
 console.log(aLetras.length)
@@ -26,22 +26,20 @@ console.log(aLetras.length)
 
 //console.log(aLetras.join(''))
 //console.log(aLetras)
-//aLetrasOriginal = aLetras.slice(0, aLetras.length)
-//aLetras.sort()
-//console.log(aLetrasOriginal)
+aLetrasOriginal = aLetras.slice(0, aLetras.length)// -->"slide" Método inmutable. No modifica el array original
+aLetras.sort()
+console.log('Copia No sort',aLetrasOriginal)
+aLetras.reverse()
+console.log('Reverse', aLetras)
 
 //Método mutable
-let aNuevo = aLetras.splice(0, 5,"C", "D")
+let aNuevo = aLetras.splice(0, 5,"C", "D") //"splice" Modifica el valor original del array.
 console.log(aNuevo)
 console.log(aLetras)
+
 
 //Mutables
 aLetras.push("")//añadir al final
 aLetras.unshift("")//añadir al principio
 aLetras.pop()//quitar ultimo
 aLetras.shift()//quitar primero
-
-
-
-
-

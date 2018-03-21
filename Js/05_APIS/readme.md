@@ -6,7 +6,7 @@ Lenguaje de programacion
 - APIs
     - Core
 
-        - Funciones globales: ParseInt(), ParseFloat(), isNaN()
+        - Funciones globales: parseInt(), parseFloat(), isNaN()
         - Métodos de los objetos.
 
     - Host (Browser, NodeJS)
